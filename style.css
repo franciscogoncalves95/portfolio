@@ -684,47 +684,47 @@ nav ul{
 }
 
 .objetivos-projeto {
-    background: #111;
+    background-color: #111111;
     border-radius: 24px;
-    padding: 40px 48px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.objetivos-projeto h4 {
-    font-size: 42px;
-    font-weight: 700;
-    color: #f4c400;
-    margin-bottom: 28px;
-}
-
-.objetivos-projeto ul {
-    padding-left: 28px;
-}
-
-.objetivos-projeto li {
-    font-size: 32px;
-    line-height: 1.8;
-    color: white;
-    margin-bottom: 16px;
-}
-
-.preview-dashboard {
+    padding: 48px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.preview-dashboard img {
-    width: 100%;
-    max-width: 1000px;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+.objetivos-projeto h4 {
+    font-size: 52px;
+    font-weight: 700;
+    color: #f4c400;
+    margin-bottom: 30px;
+}
+
+.objetivos-projeto ul {
+    padding-left: 30px;
+    margin: 0;
+}
+
+.objetivos-projeto li {
+    color: white;
+    font-size: 28px;
+    line-height: 1.9;
+    margin-bottom: 16px;
 }
 
 .dashboard-preview-title {
-    font-size: 36px;
+    font-size: 52px;
     font-weight: 700;
     color: #f4c400;
-    margin-top: 36px;
+    margin-top: 48px;
     margin-bottom: 24px;
+}
+
+.preview-dashboard {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.preview-dashboard img {
+    width: 100%;
+    border-radius: 24px;
+    display: block;
 }
