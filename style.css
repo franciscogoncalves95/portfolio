@@ -682,3 +682,33 @@ nav ul{
 
     opacity:0.7;
 }
+
+.objetivos-projeto {
+    margin-top: 20px;
+}
+
+.objetivos-projeto h4 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.objetivos-projeto ul {
+    padding-left: 20px;
+    line-height: 1.7;
+}
+
+.objetivos-projeto li {
+    margin-bottom: 8px;
+}
+
+.preview-dashboard {
+    margin-top: 24px;
+}
+
+.preview-dashboard img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
