@@ -684,26 +684,34 @@ nav ul{
 }
 
 .objetivos-projeto {
-    margin-top: 20px;
+    background: #111;
+    border-radius: 24px;
+    padding: 40px 48px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .objetivos-projeto h4 {
-    margin-bottom: 12px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 42px;
+    font-weight: 700;
+    color: #f4c400;
+    margin-bottom: 28px;
 }
 
 .objetivos-projeto ul {
-    padding-left: 20px;
-    line-height: 1.7;
+    padding-left: 28px;
 }
 
 .objetivos-projeto li {
-    margin-bottom: 8px;
+    font-size: 32px;
+    line-height: 1.8;
+    color: white;
+    margin-bottom: 16px;
 }
 
 .preview-dashboard {
-    margin-top: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .preview-dashboard img {
@@ -711,4 +719,12 @@ nav ul{
     max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.dashboard-preview-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #f4c400;
+    margin-top: 36px;
+    margin-bottom: 24px;
 }
