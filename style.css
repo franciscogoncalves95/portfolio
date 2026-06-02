@@ -710,21 +710,84 @@ nav ul{
     margin-bottom: 16px;
 }
 
-.dashboard-preview-title {
-    font-size: 52px;
-    font-weight: 700;
-    color: #f4c400;
-    margin-top: 48px;
-    margin-bottom: 24px;
+/* DOWNLOADS */
+
+.project-links{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:30px;
+
+    margin-bottom:60px;
 }
 
-.preview-dashboard {
-    margin-top: 24px;
-    margin-bottom: 48px;
+.project-links a{
+
+    background:#f2c811;
+
+    color:black;
+
+    padding:16px 28px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    font-size:18px;
+
+    transition:0.3s;
 }
 
-.preview-dashboard img {
-    width: 100%;
-    border-radius: 24px;
-    display: block;
+.project-links a:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 8px 25px rgba(242,200,17,0.25);
+}
+
+/* TÍTULO DA IMAGEM */
+
+.dashboard-preview-title{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#f2c811;
+
+    margin-top:40px;
+
+    margin-bottom:30px;
+
+}
+
+/* PREVIEW */
+
+.preview-dashboard{
+
+    margin-bottom:100px;
+}
+
+.preview-dashboard img{
+
+    width:100%;
+
+    border-radius:30px;
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,0.5);
+
+    transition:0.5s;
+}
+
+.preview-dashboard img:hover{
+
+    transform:scale(1.01);
 }
