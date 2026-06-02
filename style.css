@@ -242,6 +242,8 @@ header{
     color:#d1d1d1;
 
     max-width:1200px;
+
+    margin-bottom:80px;
 }
 
 .objetivos{
@@ -688,7 +690,7 @@ nav ul{
     border-radius: 30px;
     padding: 40px;
 
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
