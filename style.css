@@ -828,6 +828,21 @@ nav ul{
     0 8px 25px rgba(242,200,17,0.25);
 }
 
+.tutoriais-box h4 {
+    color: #ffffff;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.tutorial-descricao {
+    margin-bottom: 15px;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
 .tutorial-list {
     margin-top: 30px;
     padding: 0;
